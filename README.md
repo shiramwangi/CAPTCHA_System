@@ -1,8 +1,21 @@
 # Advanced Emotion-Based CAPTCHA System
 
 ## Overview
+This application is a unique CAPTCHA verification tool that utilizes facial recognition technology to determine if a user is human. The app requires users to grant camera access to verify their identity through a smile detection mechanism. 
 
-This project implements a cutting-edge, multi-layered CAPTCHA verification system that leverages advanced computer vision, machine learning, and behavioral analysis to distinguish between human users and automated bots. The system employs sophisticated facial expression recognition, trust-based image selection, and real-time emotional response analysis to provide robust security while maintaining an exceptional user experience.
+To use the app, users first need to allow camera access. Once permission is granted, they are presented with a classic CAPTCHA challenge where they must select an image that represents trust. If they select the correct image, the app plays a Rickroll video, and the user's smile is detected using facial recognition. If a smile is detected, the app confirms the user as human; otherwise, it indicates a verification failure.
+
+The app is built using TypeScript and React, leveraging various libraries and technologies such as Radix UI for UI components, Tailwind CSS for styling, and face-api.js for facial recognition. The confetti effect is implemented using the canvas-confetti library to celebrate successful verifications.
+
+Key features of the app include:
+- Camera permission request and handling.
+- Classic CAPTCHA challenge with image selection.
+- Smile detection using facial recognition technology.
+- Dynamic progress indication throughout the verification process.
+- Visual feedback with confetti effects upon successful verification.
+- Responsive design with retro-themed UI elements.
+
+Overall, this app combines fun and functionality, providing a novel approach to CAPTCHA verification while ensuring user engagement through interactive elements.
 
 ## Key Features
 
