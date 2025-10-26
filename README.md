@@ -223,4 +223,6 @@ For technical support or security concerns, please contact the development team 
 
 ---
 
+HAVE FUN
+
 **Note**: This system represents the cutting edge of human-computer interaction and security verification. The combination of advanced machine learning, behavioral analysis, and privacy-first design makes it one of the most sophisticated CAPTCHA systems available today.
